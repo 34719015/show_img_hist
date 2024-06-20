@@ -11,7 +11,7 @@ int main()
     srand(time(NULL));
     for (int i = 0; i < SIZE; i++)
     {
-        data[i] = rand() % 100; // 0から99まで乱数
+        data[i] = rand() % 200; // 0から99まで乱数
     }
 
     int sum = 0;
